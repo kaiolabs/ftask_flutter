@@ -1,0 +1,1 @@
+enum SpacingMode { height, width }

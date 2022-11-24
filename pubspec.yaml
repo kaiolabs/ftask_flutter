@@ -1,0 +1,53 @@
+name: task
+description: A task
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^5.0.3
+  #core
+  objectid: ^2.1.0
+  #data services
+  dio: ^4.0.6
+  hive_flutter: ^1.1.0
+  #infra
+  jwt_decoder: ^2.0.1
+  path_provider: ^2.0.11
+  logger: ^1.1.0
+  signalr_core: ^1.1.1
+  #ui
+  #ver como trocar pelo custom paint(by edson)
+  flutter_svg: ^1.1.5
+  auto_size_text: ^3.0.0
+  loading_animation_widget: ^1.2.0+3
+  #date format
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mocktail: ^0.3.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: Sansation
+      fonts:
+        - asset: assets/fonts/Sansation_Regular.ttf
+        - asset: assets/fonts/Sansation_Bold.ttf
+          style: italic
